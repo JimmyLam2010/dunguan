@@ -15,3 +15,16 @@ a{
 .clear{
     clear: both;
 }
+
+@media screen and (min-width: 1297px){
+    body{
+        width: 1280px;
+        margin: 0 auto
+    }
+}
+
+@media screen and (max-width: 1297px){
+    body{
+        width: 100%;
+    }
+}

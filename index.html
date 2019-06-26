@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>主页</title>
-    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <div class="header">
@@ -31,25 +31,40 @@
     </div>
     <div class="nav-bar">
         <ul>
-            <a href=""><li>首页</li></a>
-            <a href=""><li>音响</li></a>
-            <a href=""><li>家庭系统</li></a>
-            <a href=""><li>商业系统</li></a>
-            <a href=""><li>客户服务</li></a>
-            <a href=""><li>产品与科技</li></a>
-            <a href=""><li>工程案例</li></a>
-            <a href=""><li>资讯</li></a>
+            <li><a href="">首页</a></li>
+            <li><a href="">音响</a></li>
+            <li><a href="">家庭系统</a></li>
+            <li><a href="">商业系统</a></li>
+            <li><a href="">客户服务</a></li>
+            <li><a href="">产品与科技</a></li>
+            <li><a href="">工程案例</a></li>
+            <li><a href="">资讯</a></li>
         </ul>
     </div>
     <div class="banner">
-        <div class="pre">
-            <img src="images/pre.png" alt="pre">
+        <input type="radio" name="banner_img" id="img1" checked>
+        <div class="banner-img1">
+            <img src="images/banner.png" alt="">
+            <div class="switch">
+                <label for="img3"><</label>
+                <label for="img2">></label>
+            </div>
         </div>
-        <div class="banner-img">
-            <img src="images/banner.png" alt="banner">
+        <input type="radio" name="banner_img" id="img2">
+        <div class="banner-img2">
+            <img src="images/banner2.png" alt="">
+            <div class="switch">
+                <label for="img1"><</label>
+                <label for="img3">></label>
+            </div>
         </div>
-        <div class="next">
-            <img src="images/next.png" alt="next">
+        <input type="radio" name="banner_img" id="img3">
+        <div class="banner-img3">
+            <img src="images/banner3.png" alt="">
+            <div class="switch">
+                <label for="img2"><</label>
+                <label for="img1">></label>
+            </div>
         </div>
     </div>
     <div class="product">
@@ -101,7 +116,9 @@
                 <div class="en">News and information</div>
             </div>
         </div>
-        <div class="content"></div>
+        <div class="content">
+            <img src="images/news.png" alt="">
+        </div>
     </div>
     <div class="intro">
         <div class="title">
@@ -136,21 +153,24 @@
         </ul>
     </div>
     <div class="footer">
-        <div class="phone">
-            <p>联系电话：0755-25023651</p>
-            <p>0755-25023658</p>
-            <p>0755-52857900</p>
-            <p>图文传真：0755-25857800</p>
+        <div class="content">
+            <div class="phone">
+                <p>联系电话：0755-25023651</p>
+                <p>0755-25023658</p>
+                <p>0755-52857900</p>
+                <p>图文传真：0755-25857800</p>
+            </div>
+            <div class="address">
+                <p>地址：深圳市深南中路绿景广场(NEO企业大道)B栋32F</p>
+                <p>copyright©2008-2015 All Rights Reserved  深圳市敦冠科技有限公司</p>
+                <p>粤ICP备09077069号-2</p>
+            </div>
+            <div class="qrcode">
+                <img src="images/wechatqr.png" alt="wechatqr">
+                <img src="images/weiboqr.png" alt="weiboqr">
+            </div>
         </div>
-        <div class="address">
-            <p>地址：深圳市深南中路绿景广场(NEO企业大道)B栋32F</p>
-            <p>copyright©2008-2015 All Rights Reserved  深圳市敦冠科技有限公司</p>
-            <p>粤ICP备09077069号-2</p>
-        </div>
-        <div class="qrcode">
-            <img src="images/wechatqr.png" alt="wechatqr">
-            <img src="images/weiboqr.png" alt="weiboqr">
-        </div>
+        
     </div>
 </body>
 </html>
