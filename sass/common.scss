@@ -39,7 +39,7 @@
             margin: 0;
         }
     }
-    
+
     ul{
         li{
             border-right: 2px solid #ffffff;
@@ -224,6 +224,10 @@
         background-color: #000000;
         position: absolute;
         top: 50%;
+
+        @media screen and (max-width: 582px){
+            width: 50%;
+        }
     }
 
     .text::before{

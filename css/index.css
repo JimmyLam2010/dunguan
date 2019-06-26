@@ -225,6 +225,9 @@
     position: absolute;
     top: 50%;
     right: 120%; }
+    @media screen and (max-width: 582px) {
+      .title .text::before {
+        width: 50%; } }
   .title .text::after {
     content: '';
     width: 169px;
@@ -233,6 +236,9 @@
     position: absolute;
     top: 50%;
     left: 120%; }
+    @media screen and (max-width: 582px) {
+      .title .text::after {
+        width: 50%; } }
 
 .nav-bottom {
   background-color: #1f1f1f;
