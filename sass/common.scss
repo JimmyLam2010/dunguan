@@ -7,9 +7,17 @@
     padding-bottom: 14px;
     padding-left: 26px;
 
+    @media screen and (max-width: 1054px){
+        text-align: center;
+    }
+
     *{
         display: inline-block;
         color: #ffffff;
+
+        @media screen and (max-width: 1054px){
+            display: block;
+        }
     }
 
     .company-name{
@@ -18,16 +26,29 @@
 
     .nav{
         margin-left: 415px;
+
+        @media screen and (max-width: 1054px){
+            margin: 0;
+        }
     }
 
     .lang{
         margin-left: 42px;
+
+        @media screen and (max-width: 1054px){
+            margin: 0;
+        }
     }
+    
     ul{
         li{
             border-right: 2px solid #ffffff;
             padding-left: 5px;
             padding-right: 5px;
+
+            @media screen and (max-width: 1054px){
+                border: none;
+            }
         }
 
         li:last-child{
@@ -52,12 +73,17 @@
     background-color: #1f1f1f;
     padding-top: 14px;
     padding-bottom: 12px;
+    text-align: center;
 
     ul{
-        margin-left: 232px;
-
         li{
             display: inline-block;
+
+            @media screen and (max-width: 803px){
+                display: block;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
 
             a{
                 color: #ffffff;
@@ -67,6 +93,11 @@
                 padding-right: 10px;
                 padding-bottom: 12px;
                 margin-right: 20px;
+
+                @media screen and (max-width: 803px){
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
             }
         }
         li:hover{
@@ -220,6 +251,10 @@
             padding-right: 15px;
             border-right: 1px solid #ffffff;
 
+            @media screen and (max-width: 582px){
+                display: block;
+            }
+
             a{
                 color: #ffffff;
             }
@@ -247,6 +282,11 @@
         div{
             display: inline-block;
             border-right: 1px solid #ffffff;
+
+            @media screen and (max-width: 914px){
+                display: block;
+                text-align: center !important;
+            }
         }
     
         div:last-child{
@@ -256,11 +296,11 @@
         .phone{
             padding-left: 19px;
             padding-right: 37px;
+            text-align: right;
 
             p{
                 font-size: 12px;
                 color: #ffffff;
-                text-align: right;
                 line-height: 20px;
             }
         }
