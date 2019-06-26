@@ -58,14 +58,17 @@
 }
 
 .logo{
+    width: 100%;
     padding-top: 26px;
     padding-bottom: 33px;
 
     img{
         display: block;
-        width: 255px;
-        height: 37px;
         margin: 0 auto;
+
+        @media screen and (max-width: 323px){
+            width: 100%;
+        }
     }
 }
 
@@ -226,7 +229,7 @@
         top: 50%;
 
         @media screen and (max-width: 582px){
-            width: 50%;
+            display: none;
         }
     }
 

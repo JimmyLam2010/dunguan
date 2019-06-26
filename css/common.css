@@ -37,13 +37,15 @@
     border: none; }
 
 .logo {
+  width: 100%;
   padding-top: 26px;
   padding-bottom: 33px; }
   .logo img {
     display: block;
-    width: 255px;
-    height: 37px;
     margin: 0 auto; }
+    @media screen and (max-width: 323px) {
+      .logo img {
+        width: 100%; } }
 
 .nav-bar {
   background-color: #1f1f1f;
@@ -227,7 +229,7 @@
     right: 120%; }
     @media screen and (max-width: 582px) {
       .title .text::before {
-        width: 50%; } }
+        display: none; } }
   .title .text::after {
     content: '';
     width: 169px;
@@ -238,7 +240,7 @@
     left: 120%; }
     @media screen and (max-width: 582px) {
       .title .text::after {
-        width: 50%; } }
+        display: none; } }
 
 .nav-bottom {
   background-color: #1f1f1f;
