@@ -86,9 +86,15 @@
     @for $i from 1 through 3{
         .banner-img#{$i}{
             width: 978px;
+            height: 100%;
             position: absolute;
             top: 0;
             transition: 0.5s;
+
+            @media screen and (max-width: 1297px){
+                width: 100%;
+                left: 0;
+            }
             
             img{
                 width: 100%;
@@ -112,9 +118,17 @@
                 }
                 label:first-child{
                     left: -16%;
+
+                    @media screen and (max-width: 1297px){
+                        left: 0;
+                    }
                 }
                 label:last-child{
                     right: -16%;
+
+                    @media screen and (max-width: 1297px){
+                        right: 0;
+                    }
                 }
             }
         }
@@ -140,6 +154,10 @@
     input[name="banner_img"]:checked + div{
         left: 12%;
         z-index: 10;
+
+        @media screen and (max-width: 1297px){
+            left: 0;
+        }
     }
 
     input[name="banner_img"]:checked + div .switch label{
@@ -221,6 +239,10 @@
     .content{
         width: 978px;
         margin: 0 auto;
+
+        @media screen and (max-width: 1297px){
+            width: 100%;
+        }
 
         div{
             display: inline-block;
