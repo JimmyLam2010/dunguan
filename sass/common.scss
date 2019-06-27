@@ -111,6 +111,24 @@
     }
 }
 
+.index{
+    font-size: 12px;
+    font-family: "宋体";
+    background-color: #989898;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    padding-left: 165px;
+
+    img{
+        margin-right: 7px;
+    }
+
+    @media screen and (max-width: 496px){
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
 .banner{
     height: 525px;
     position: relative;
